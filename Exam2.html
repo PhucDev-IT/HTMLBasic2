@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exams two</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="C:\Users\PHUC\Desktop\HTML\style_exam2.css">
+	</head>
+	<body>
+
+		<center><h1>Novell Services Login</h1></center>
+		
+		<div class="login">
+			<table>
+			<thead>
+				
+			<th></th>
+			<th></th>
+			
+			</thead>
+			<tbody>
+				<form>
+					<tr>
+				<td><label for="user">UserName: </label></td>
+				<td><input type="text" id="user" name="user" size="30" required /></td>
+
+				</tr>
+				<tr>
+					<td><label for="pass">Password: </label></td>
+					<td><input type="Password" id="pass" name="pass" size="30"></td>
+				</tr>
+				
+				<tr>
+					<td><label for="city">City of: </label></td>
+					<td><input type="text" id="city" name="city" size="30"></td>
+				</tr>
+				
+				<tr>
+					<td><label for="Employment">Employment: </label></td>
+					<td><input type="text" id="Employment" name="Employment" size="30"></td>
+				</tr>
+			
+				<tr>
+					<td><label for="server">Web server: </label></td>
+					<td>
+						<select name="server" id="server">
+								<option value="Choose a server">-- Choose a server --</option>
+								<option value="VietNamese">VietNamese</option>
+      							<option value="China">China</option>
+      							<option value="Japan">Japan</option>			
+						</select>
+					</td>
+				
+				</tr>
+
+				<!-- Please specify your role -->
+
+				<tr>
+
+					<td><label for="specify">Please specify<br>your role:</label></td>
+					<td>
+						<br>
+						<input type="radio" id="admin" name="specify" value="Admin">
+						<label for="admin">Admin</label><br>
+						<input type="radio" id="Engineer" name="specify" value="Engineer">
+						<label for="Engineer">Engineer</label><br>
+						<input type="radio" id="manager" name="specify" value="Manager">
+						<label for="manager">Manager</label><br>
+						<input type="radio" id="Guest" name="specify" value="Guest">
+						<label for="Guest">Guest</label>
+					</td>
+				</tr>
+
+
+				<tr>
+					<td><label for="Sign">Single Sign-on<br>to the following: </label></td>
+
+					<td>
+						<br>
+						<input type="checkbox" id="mail" name="Sign" value="Mail">
+						<label for="mail"> Mail</label><br>
+
+						<input type="checkbox" id="Payroll" name="Sign" value="Payroll">
+						<label for="Payroll"> Payroll</label><br>
+
+						<input type="checkbox" id="Self-service" name="Sign" value="Self-service">
+						<label for="Self-service"> Self-service</label>
+					</td>
+				</tr>
+
+			</form>
+
+			
+			</tbody>
+
+		</table>
+		</div>
+
+		<div id = btnLoginForm>
+			<button>Login</button>
+			<button>Reset</button>
+		</div>
+
+
+	</body>
+</html>
